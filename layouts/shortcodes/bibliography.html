@@ -70,7 +70,6 @@
 {{- end }}
 
 {{- if $citedOnly }}{{/* Render cited references only */}}
-
   {{ $references = $.Page.Scratch.Get "citedBib" }}
 
 {{- else }}{{/* Render the full bibliography */}}
@@ -92,7 +91,10 @@
   {{- $bibliographyPath = $constructedBibResource }}
   {{- end }}
 
-  {{- $references = getJSON $bibliographyPath }}
+  {{ $references = dict }}
+  {{ with resources.Get $bibliographyPath }}
+    {{ $references = . | transform.Unmarshal }}
+  {{ end }}
 
 {{- end }}
 
