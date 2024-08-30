@@ -4,7 +4,7 @@
 
 [**Original documentation site + demo &rarr;**](https://labs.loupbrun.ca/hugo-cite/)
 
-** This is a fork of the original project by [loup-brun] fixing a few deprecated functions in hugo 0.133 and beyond
+**This is a fork of the original project by [loup-brun] fixing a few deprecated functions in hugo 0.133 and beyond.**
 
 ---
 
