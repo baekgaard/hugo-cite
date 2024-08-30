@@ -2,7 +2,9 @@
 
 📝 Easily manage your bibliography and in-text citations with [Hugo](https://gohugo.io), the popular static-site generator.
 
-[**Documentation site + demo &rarr;**](https://labs.loupbrun.ca/hugo-cite/)
+[**Original documentation site + demo &rarr;**](https://labs.loupbrun.ca/hugo-cite/)
+
+** This is a fork of the original project by [loup-brun] fixing a few deprecated functions in hugo 0.133 and beyond
 
 ---
 
